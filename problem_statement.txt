@@ -1,0 +1,23 @@
+There are a set of things which can be of different colours.
+●Banana: Green, Yellow
+●Sun: Red, Yellow
+●Ink: Any colour
+●Salt: White
+●Sugar: White, Brownetc. 
+These “Thing” objects love their own colours and whenever they
+hear the name of one of their colours, they say - 
+“Hey! I’m sometimes <colour>”
+
+Build an application which takes input from the user:
+●Colour Name: “red”, “white” etc.
+●Add Command: “+sun”, “+ink” etc.
+●Remove Command: “-sun”, “-ink”, etc.
+When the user inputs - “white”, all the added “things” that
+are white should speak up in a chat like format
+
+Apart from this if the user inputs:
+●exit: It should the game
+●list: It should list all the things currently “added”.
+Twist:
+There has to be a thing called “Frog” which says:
+“Frog: Ribbit! I’m <colour> today!” on all colours, if added.
