@@ -1,7 +1,0 @@
-#!/usr/bin/perl -w
-use HTTP::Request;
-$query="dog";
-$url = "https://www.mediawiki.org/w/api.php?action=opensearch&search=$query";
-$request = HTTP::Request->new("GET" => $url);
-print($request)
-https://en.wikipedia.org/wiki/Bangalore
